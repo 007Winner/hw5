@@ -74,3 +74,11 @@ Okay. We are finally on the very last part of this whole project. We're going to
 ### Follow-up prompts
 
 in the assignment expected output files, there are only two python files, models.py and main.py. We have an audit.py and an agent.py. Why is that? should we fix it?
+
+## Problem 11 — Submit to GitHub
+
+Okay, finally, we are going to push all of the code to this git repo:
+https://github.com/007Winner/hw5
+and we are going to also put this url into output/github_url.txt
+Obviously, don't put the real .env in the git repo, but we do need to include the whole database, so that means both of the .db files in the data/ folder (the original and the working copy) so that the AI graders can run the app easily.
+We also need a README that explains the copy of the original DB to the working copy when we need a clean run, start MCP server, start FastAPI backend, start teh React board, and reset the DB before a full three-ticket run.
