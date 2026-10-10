@@ -1,0 +1,23 @@
+[
+  {
+    "id": 101,
+    "final_status": "open",
+    "short_outcome": "Invoice 501 was paid with human approval; size-S stock remains zero and a restock order still requires human approval.",
+    "contribution": "Inventory verified a shortfall of 1; accounting prepared the payment; customer service saved an unsent factual draft.",
+    "human_approvals": [{"action": "pay invoice 501", "approved_by": "Course operator", "amount": 840.0}]
+  },
+  {
+    "id": 102,
+    "final_status": "open",
+    "short_outcome": "Rent is $2,400 and due 2026-09-02, after the shop date of 2026-08-31; no payment was made.",
+    "contribution": "Facilities verified the lease timing and accounting checked cash/payment eligibility.",
+    "human_approvals": []
+  },
+  {
+    "id": 103,
+    "final_status": "open",
+    "short_outcome": "The request has 8 of 20 size-M hoodies available, a shortfall of 12, and no approved discount or verified fulfillment plan.",
+    "contribution": "Inventory verified quantity, margin facts, and restock constraints; customer service did not send a message.",
+    "human_approvals": []
+  }
+]

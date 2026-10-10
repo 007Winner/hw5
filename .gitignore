@@ -1,0 +1,13 @@
+.env
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+node_modules/
+frontend/dist/
+
+# Keep the supplied SQLite databases tracked; they are required for grading.
+!.db
+!data/*.db
